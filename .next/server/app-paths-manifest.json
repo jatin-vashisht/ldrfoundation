@@ -1,7 +1,6 @@
 {
   "/page": "app/page.js",
-  "/testimonials/page": "app/testimonials/page.js",
-  "/faq/page": "app/faq/page.js",
-  "/donation/page": "app/donation/page.js",
-  "/about/page": "app/about/page.js"
+  "/donation-details/page": "app/donation-details/page.js",
+  "/api/create-razorpay-order/route": "app/api/create-razorpay-order/route.js",
+  "/api/verify-razorpay-payment/route": "app/api/verify-razorpay-payment/route.js"
 }
