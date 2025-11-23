@@ -20,8 +20,8 @@ export default function Blog() {
                         <div className="blog-two__single">
                             <div className="blog-two__img-box">
                                 <div className="blog-two__img">
-                                    <img src="assets/images/blog/blog-2-1.jpg" alt="@@title" />
-                                    <img src="assets/images/blog/blog-2-1.jpg" alt="@@title" />
+                                    <img src="/elder-care.png" alt="@@title" />
+                                    <img src="/elder-care2.png" alt="@@title" />
                                     <Link href="blog-details" className="blog-two__link"><span className="sr-only"></span></Link>
                                 </div>
                             </div>
@@ -51,8 +51,8 @@ export default function Blog() {
                         <div className="blog-two__single">
                             <div className="blog-two__img-box">
                                 <div className="blog-two__img">
-                                    <img src="assets/images/blog/blog-2-2.jpg" alt="@@title" />
-                                    <img src="assets/images/blog/blog-2-2.jpg" alt="@@title" />
+                                    <img src="/poor.jpg" alt="@@title" style={{height: '230px'}} />
+                                    <img src="/poor2.jpg" alt="@@title" style={{height: '230px'}} />
                                     <Link href="blog-details" className="blog-two__link"><span className="sr-only"></span></Link>
                                 </div>
                             </div>
@@ -82,8 +82,8 @@ export default function Blog() {
                         <div className="blog-two__single">
                             <div className="blog-two__img-box">
                                 <div className="blog-two__img">
-                                    <img src="assets/images/blog/blog-2-3.jpg" alt="@@title" />
-                                    <img src="assets/images/blog/blog-2-3.jpg" alt="@@title" />
+                                    <img src="education.jpg" alt="@@title" style={{height: '230px'}} />
+                                    <img src="education2.jpg" alt="@@title" style={{height: '230px'}} />
                                     <Link href="blog-details" className="blog-two__link"><span className="sr-only"></span></Link>
                                 </div>
                             </div>

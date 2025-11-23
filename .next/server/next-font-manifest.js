@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/anubhav/Github/production/ldr foundation/anity-pack/anity/app/layout\":[\"static/media/9c18eba18d4baf22-s.p.woff2\",\"static/media/b2f48049c9c5c631-s.p.woff2\",\"static/media/fd9b8ea6976d80ff-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":false}"

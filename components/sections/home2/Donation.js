@@ -14,7 +14,7 @@ export default function Donation() {
             <div className="donation-one__wrapper">
                 <div className="donation-one__left">
                     <div className="donation-one__left-bg"
-                        style={{ backgroundImage: ' url(assets/images/backgrounds/donation-one-left-bg.jpg)' }} ></div>
+                        style={{ backgroundImage: ' url(/donate.jpg)' }} ></div>
                 </div>
                 <div className="donation-one__right">
                     <div className="donation-one__content-box">
@@ -22,7 +22,7 @@ export default function Donation() {
                             <div className="section-title-two__tagline-box">
                                 <span className="section-title-two__tagline">Join Us Now</span>
                             </div>
-                            <h2 className="section-title-two__title title-animation">Helping To Make Our <br/> World
+                            <h2 className="section-title-two__title title-animation">Helping To Make Our <br/> World&nbsp;
                                 <span>Better</span> Living </h2>
                         </div>
                         <div className="donation-one__donate-box">

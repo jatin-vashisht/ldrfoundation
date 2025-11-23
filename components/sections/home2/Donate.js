@@ -31,8 +31,8 @@ export default function Donate() {
                         <div className="donate-two__single">
                             <div className="donate-two__img-box">
                                 <div className="donate-two__img">
-                                    <img src="assets/images/donate/donate-2-1.jpg" alt=""/>
-                                    <img src="assets/images/donate/donate-2-1.jpg" alt=""/>
+                                    <img src="/cancer.webp" alt=""/>
+                                    <img src="/child-cancer.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className="donate-two__content">
@@ -68,12 +68,12 @@ export default function Donate() {
                         <div className="donate-two__single donate-two__single-2">
                             <div className="donate-two__img-box">
                                 <div className="donate-two__img">
-                                    <img src="assets/images/donate/donate-2-2.jpg" alt=""/>
-                                    <img src="assets/images/donate/donate-2-2.jpg" alt=""/>
+                                    <img src="/clean-water.webp" alt="" style={{height: '200px'}} />
+                                    <img src="/healthy-food.png" alt="" />
                                 </div>
                             </div>
                             <div className="donate-two__content">
-                                <h3 className="donate-two__title"><Link href="cause-details">Clean Water & Health Food</Link>
+                                <h3 className="donate-two__title"><Link href="cause-details">Clean Water & Healthy Food</Link>
                                 </h3>
                                 <p className="donate-two__text">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia
                                     voluptas sit asuraut</p>
@@ -106,12 +106,12 @@ export default function Donate() {
                         <div className="donate-two__single donate-two__single-3">
                             <div className="donate-two__img-box">
                                 <div className="donate-two__img">
-                                    <img src="assets/images/donate/donate-2-3.jpg" alt=""/>
-                                    <img src="assets/images/donate/donate-2-3.jpg" alt=""/>
+                                    <img src="/medical-support.jpg" alt=""/>
+                                    <img src="/medicine.jpg" alt=""/>
                                 </div>
                             </div>
                             <div className="donate-two__content">
-                                <h3 className="donate-two__title"><Link href="cause-details">Medicine For Africans</Link>
+                                <h3 className="donate-two__title"><Link href="cause-details">Medicine For Indians</Link>
                                 </h3>
                                 <p className="donate-two__text">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia
                                     voluptas sit asuraut</p>
