@@ -8845,7 +8845,7 @@ Copyright (c) 2015 Daniel Eden
     gap: 40px;
     background-color: #FFDED5;
     border-radius: var(--Anity-bdr-radius);
-    padding: 40px;
+    padding: 59px 40px 57px;
     margin-bottom: 30px;
     transition: all 500ms ease;
 }

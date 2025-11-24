@@ -1,8 +1,4 @@
 {
   "/page": "app/page.js",
-  "/donation/page": "app/donation/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/faq/page": "app/faq/page.js",
-  "/testimonials/page": "app/testimonials/page.js",
-  "/donation-details/page": "app/donation-details/page.js"
+  "/api/create-razorpay-order/route": "app/api/create-razorpay-order/route.js"
 }
