@@ -133,8 +133,8 @@ export default function Home() {
                         <div className="found-one__single">
                             <div className="found-one__img-box">
                                 <div className="found-one__img">
-                                    <img src="assets/images/resources/found-1-1.jpg" alt=""/>
-                                    <img src="assets/images/resources/found-1-1.jpg" alt=""/>
+                                    <img src="/ecosystem.jpg" alt="" style={{height: '210px'}} />
+                                    <img src="/ecosystem2.jpg" alt="" style={{height: '210px'}} />
                                 </div>
                             </div>
                             <div className="found-one__content">
@@ -170,8 +170,8 @@ export default function Home() {
                         <div className="found-one__single">
                             <div className="found-one__img-box">
                                 <div className="found-one__img">
-                                    <img src="assets/images/resources/found-1-2.jpg" alt=""/>
-                                    <img src="assets/images/resources/found-1-2.jpg" alt=""/>
+                                    <img src="water.jpg" alt=""/>
+                                    <img src="water2.png" alt=""/>
                                 </div>
                             </div>
                             <div className="found-one__content">
@@ -207,8 +207,8 @@ export default function Home() {
                         <div className="found-one__single">
                             <div className="found-one__img-box">
                                 <div className="found-one__img">
-                                    <img src="assets/images/resources/found-1-3.jpg" alt=""/>
-                                    <img src="assets/images/resources/found-1-3.jpg" alt=""/>
+                                    <img src="vaccine.jpg" alt=""/>
+                                    <img src="vaccine.avif" alt=""/>
                                 </div>
                             </div>
                             <div className="found-one__content">
@@ -374,7 +374,7 @@ export default function Home() {
                         <div className="event-one__single">
                             <div className="event-one__img-box">
                                 <div className="event-one__img">
-                                    <img src="assets/images/event/event-1-1.jpg" alt=""/>
+                                    <img src="/donation.jpg" alt=""/>
                                 </div>
                                 <div className="event-one__date">
                                     <p><span className="icon-clock"></span>20th Dec, 2024</p>
@@ -399,7 +399,7 @@ export default function Home() {
                         <div className="event-one__single">
                             <div className="event-one__img-box">
                                 <div className="event-one__img">
-                                    <img src="assets/images/event/event-1-2.jpg" alt=""/>
+                                    <img src="/win.jpg" alt=""/>
                                 </div>
                                 <div className="event-one__date">
                                     <p><span className="icon-clock"></span>15th nov, 2023</p>
@@ -424,7 +424,7 @@ export default function Home() {
                         <div className="event-one__single">
                             <div className="event-one__img-box">
                                 <div className="event-one__img">
-                                    <img src="assets/images/event/event-1-3.jpg" alt=""/>
+                                    <img src="/education.jpg" alt="" style={{height: '210px'}}/>
                                 </div>
                                 <div className="event-one__date">
                                     <p><span className="icon-clock"></span>19th Feb, 2024</p>

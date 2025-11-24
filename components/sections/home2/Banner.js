@@ -46,8 +46,8 @@ export default function Banner() {
                     </div>
                     <div className="main-slider-two__img-box">
                         <div className="main-slider-two__img-box-inner">
-                            <div className="main-slider-two__img">
-                                <img src="assets/images/resources/main-slider-two-img-1.jpg" alt=""/>
+                            <div className="main-slider-two__img" style={{display: "flex"}}>
+                                <img src="/home.jpg" alt=""/>
                             </div>
                         </div>
                     </div>

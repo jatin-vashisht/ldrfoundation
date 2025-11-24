@@ -17,8 +17,7 @@ export default function Footer2() {
                                     <h2 className="footer-widget-two__about-title">Donate To Change The World</h2>
                                     <p className="footer-widget-two__about-text">Plant a tree today and give the planet cleaner air tomorrow<br/> Your small gift creates a greener, healthier Earth.</p>
                                     <div className="footer-widget-two__btn-box">
-                                        <Link href="donation-details" className="footer-widget-two__btn thm-btn">Donate
-                                            Now<span><i className="icon-arrow-right"></i></span></Link>
+                                        <Link href="donation-details" className="footer-widget-two__btn thm-btn">Volunteer<span><i className="icon-arrow-right"></i></span></Link>
                                     </div>
                                 </div>
                             </div>
@@ -85,7 +84,7 @@ export default function Footer2() {
                                         <ul className="list-unstyled site-footer-two__bottom-menu">
                                             <li><Link href="about">Privacy Policy</Link></li>
                                             <li><Link href="about">Terms of Service</Link></li>
-                                            <li><Link href="about">Cookies Settings</Link></li>
+                                            {/* <li><Link href="about">Cookies Settings</Link></li> */}
                                         </ul>
                                     </div>
                                 </div>

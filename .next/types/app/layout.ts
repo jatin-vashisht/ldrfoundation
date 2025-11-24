@@ -1,4 +1,4 @@
-// File: /Users/anubhav/Github/production/ldr foundation/anity-pack/anity/app/layout.js
+// File: C:\Users\Jatin\Desktop\ldr\app\layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

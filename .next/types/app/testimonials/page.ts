@@ -1,4 +1,4 @@
-// File: /Users/anubhav/Github/production/ldr foundation/anity-pack/anity/app/testimonials/page.js
+// File: C:\Users\Jatin\Desktop\ldr\app\testimonials\page.js
 import * as entry from '../../../../app/testimonials/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

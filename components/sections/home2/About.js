@@ -11,8 +11,8 @@ export default function About() {
                 <div className="row">
                     <div className="col-xl-6 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                         <div className="about-two__left">
-                            <div className="about-two__img">
-                                <img src="assets/images/resources/about-two-img-1.png" alt=""/>
+                            <div className="about-two__img" style={{height: '600px'}}>
+                                <img src="/about.jpg" alt="" style={{height: '600px'}} />
                             </div>
                         </div>
                     </div>
@@ -22,7 +22,7 @@ export default function About() {
                                 <div className="section-title-two__tagline-box">
                                     <span className="section-title-two__tagline">About Us</span>
                                 </div>
-                                <h2 className="section-title-two__title title-animation">Helping To Make Our World
+                                <h2 className="section-title-two__title title-animation">Helping To Make Our World&nbsp;
                                     <span>Better
                                         <img src="assets/images/shapes/section-title-shape.png" alt=""/>
                                     </span> Living </h2>
