@@ -22,14 +22,12 @@ export default function About() {
                                 <div className="section-title-two__tagline-box">
                                     <span className="section-title-two__tagline">About Us</span>
                                 </div>
-                                <h2 className="section-title-two__title title-animation">Helping To Make Our World&nbsp;
+                                <h2 className="section-title-two__title title-animation" style={{lineHeight: '4rem'}}>Helping To Make Our World&nbsp;
                                     <span>Better
                                         <img src="assets/images/shapes/section-title-shape.png" alt=""/>
                                     </span> Living </h2>
                             </div>
-                            <p className="about-two__text">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                                sit aspernaturaut odit aut fugit, sed quia consequuntur. Dicta sunt explicabo. Nemo enim
-                                ipsam voluptatem quia voluptas.</p>
+                            <p className="about-two__text">We are dedicated to providing comprehensive healthcare, education, and support services to children in need. Our mission is to ensure every child has access to quality medical care, nutritional support, educational opportunities, and a safe environment where they can grow and thrive.</p>
                             <div className="about-two__counter-box">
                                 <div className="row">
                                     {/*About Two Counter Single Start*/}
@@ -38,7 +36,7 @@ export default function About() {
                                             <div className="about-two__icon">
                                                 <span className="icon-hand"></span>
                                             </div>
-                                            <h4 className="about-two__title"><Link href="#">Our Team Member</Link></h4>
+                                            <h4 className="about-two__title"><Link href="#">Children Helped</Link></h4>
                                             <div className="about-two__count count-box">
                                                 <h2> <CounterUp end={40000} /> </h2>
                                                 <span>+</span>
@@ -52,7 +50,7 @@ export default function About() {
                                             <div className="about-two__icon">
                                                 <span className="icon-love"></span>
                                             </div>
-                                            <h4 className="about-two__title"><Link href="#">Total Donated</Link></h4>
+                                            <h4 className="about-two__title"><Link href="#">Medical Treatments</Link></h4>
                                             <div className="about-two__count count-box">
                                                 <p>$</p>
                                                 <h2> <CounterUp end={509953} /> </h2>
@@ -67,7 +65,7 @@ export default function About() {
                                             <div className="about-two__icon">
                                                 <span className="icon-dolor"></span>
                                             </div>
-                                            <h4 className="about-two__title"><Link href="#">Total Fund Raised</Link></h4>
+                                            <h4 className="about-two__title"><Link href="#">Educational Programs</Link></h4>
                                             <div className="about-two__count count-box">
                                             <h2> <CounterUp end={4442471} /> </h2>
                                             </div>
