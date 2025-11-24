@@ -364,15 +364,16 @@
     display: block;
     overflow: hidden;
     z-index: 10;
+    max-width: 60%;
 }
 
 .main-slider-two__title {
     position: relative;
     display: block;
-    font-size: 100px;
+    font-size: 60px;
     color: var(--Anity-white);
     font-weight: 700;
-    line-height: 1.1em;
+    line-height: 1.3em;
     margin-bottom: 10px;
     opacity: 0;
     transition: transform 1200ms ease, opacity 1200ms ease;

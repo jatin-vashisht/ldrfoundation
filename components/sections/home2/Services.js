@@ -22,9 +22,9 @@ export default function Services() {
                             <div className="col-xl-3 col-lg-4">
                                 <ul className="tab-buttons clearfix list-unstyled">
                                     
-                                    <li className={activeIndex == 1 ? "tab-btn active-btn" : "tab-btn"} onClick={() => handleOnClick(1)}><span>Our Approach</span></li>
-                                    <li className={activeIndex == 2 ? "tab-btn active-btn" : "tab-btn"} onClick={() => handleOnClick(2)}><span>Full Inspiration</span></li>
-                                    <li className={activeIndex == 3 ? "tab-btn active-btn" : "tab-btn"} onClick={() => handleOnClick(3)}><span>Make Different</span></li>
+                                    <li className={activeIndex == 1 ? "tab-btn active-btn" : "tab-btn"} onClick={() => handleOnClick(1)}><span>Healthcare</span></li>
+                                    <li className={activeIndex == 2 ? "tab-btn active-btn" : "tab-btn"} onClick={() => handleOnClick(2)}><span>Education</span></li>
+                                    <li className={activeIndex == 3 ? "tab-btn active-btn" : "tab-btn"} onClick={() => handleOnClick(3)}><span>Support</span></li>
                                     
                                 </ul>
                             </div>
@@ -39,11 +39,8 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-hand"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="become-volunteer">Become a volenteer</Link></h3>
-                                                        <p className="services-one__text">category that involves giving
-                                                            financial or to a materialt support various causes
-                                                            organizations It allows not to go individuals towards
-                                                            addressing </p>
+                                                        <h3 className="services-one__title"><Link href="become-volunteer">Medical Treatment</Link></h3>
+                                                        <p className="services-one__text">Providing essential medical care and treatment to children in need, ensuring access to quality healthcare services and life-saving interventions.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -51,11 +48,8 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-love"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="cause-details">Funds Collection</Link></h3>
-                                                        <p className="services-one__text">category that involves giving
-                                                            financial or to a materialt support various causes
-                                                            organizations It allows not to go individuals towards
-                                                            addressing </p>
+                                                        <h3 className="services-one__title"><Link href="cause-details">Vaccination Programs</Link></h3>
+                                                        <p className="services-one__text">Comprehensive immunization programs to protect children from preventable diseases and ensure healthy development from infancy through adolescence.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -63,13 +57,9 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-help"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="donation">Get Help
-                                                                And Support</Link>
+                                                        <h3 className="services-one__title"><Link href="donation">Nutritional Support</Link>
                                                         </h3>
-                                                        <p className="services-one__text">category that involves giving
-                                                            financial or to a materialt support various causes
-                                                            organizations It allows not to go individuals towards
-                                                            addressing </p>
+                                                        <p className="services-one__text">Providing healthy meals and nutritional supplements to combat malnutrition and support proper growth and development in children.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -77,12 +67,9 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-dolor"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="donation-details">Donate To Our Funds</Link>
+                                                        <h3 className="services-one__title"><Link href="donation-details">Emergency Care</Link>
                                                         </h3>
-                                                        <p className="services-one__text">category that involves giving
-                                                            financial or to a materialt support various causes
-                                                            organizations It allows not to go individuals towards
-                                                            addressing </p>
+                                                        <p className="services-one__text">24/7 emergency medical services for children facing critical health situations, providing immediate care when every moment counts.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -98,11 +85,8 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-hand"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="become-volunteer">Become a volenteer</Link></h3>
-                                                        <p className="services-one__text">category that involves giving
-                                                            financial or to a materialt support various causes
-                                                            organizations It allows not to go individuals towards
-                                                            addressing </p>
+                                                        <h3 className="services-one__title"><Link href="become-volunteer">School Programs</Link></h3>
+                                                        <p className="services-one__text">Quality education programs designed to give children the knowledge and skills they need for a brighter future and better opportunities.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -110,11 +94,8 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-love"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="cause-details">Funds Collection</Link></h3>
-                                                        <p className="services-one__text">category that involves giving
-                                                            financial or to a materialt support various causes
-                                                            organizations It allows not to go individuals towards
-                                                            addressing </p>
+                                                        <h3 className="services-one__title"><Link href="cause-details">Learning Resources</Link></h3>
+                                                        <p className="services-one__text">Providing books, educational materials, and digital learning tools to ensure children have access to quality educational resources.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -122,13 +103,9 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-help"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="donation">Get Help
-                                                                And Support</Link>
+                                                        <h3 className="services-one__title"><Link href="donation">Skill Development</Link>
                                                         </h3>
-                                                        <p className="services-one__text">category that involves giving
-                                                            financial or to a materialt support various causes
-                                                            organizations It allows not to go individuals towards
-                                                            addressing </p>
+                                                        <p className="services-one__text">Vocational training and skill development programs to prepare children and youth for future employment and self-reliance.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -136,12 +113,9 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-dolor"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="donation-details">Donate To Our Funds</Link>
+                                                        <h3 className="services-one__title"><Link href="donation-details">Scholarships</Link>
                                                         </h3>
-                                                        <p className="services-one__text">category that involves giving
-                                                            financial or to a materialt support various causes
-                                                            organizations It allows not to go individuals towards
-                                                            addressing </p>
+                                                        <p className="services-one__text">Educational scholarships and financial assistance to help deserving children continue their studies and achieve their academic goals.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -157,11 +131,8 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-hand"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="become-volunteer">Become a volenteer</Link></h3>
-                                                        <p className="services-one__text">category that involves giving
-                                                            financial or to a materialt support various causes
-                                                            organizations It allows not to go individuals towards
-                                                            addressing </p>
+                                                        <h3 className="services-one__title"><Link href="become-volunteer">Family Counseling</Link></h3>
+                                                        <p className="services-one__text">Professional counseling and guidance services for families to help them navigate challenges and create supportive environments for children.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -169,11 +140,8 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-love"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="cause-details">Funds Collection</Link></h3>
-                                                        <p className="services-one__text">category that involves giving
-                                                            financial or to a materialt support various causes
-                                                            organizations It allows not to go individuals towards
-                                                            addressing </p>
+                                                        <h3 className="services-one__title"><Link href="cause-details">Child Protection</Link></h3>
+                                                        <p className="services-one__text">Comprehensive child protection services ensuring safety, security, and well-being of vulnerable children in challenging circumstances.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -181,13 +149,9 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-help"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="donation">Get Help
-                                                                And Support</Link>
+                                                        <h3 className="services-one__title"><Link href="donation">Community Outreach</Link>
                                                         </h3>
-                                                        <p className="services-one__text">category that involves giving
-                                                            financial or to a materialt support various causes
-                                                            organizations It allows not to go individuals towards
-                                                            addressing </p>
+                                                        <p className="services-one__text">Community-based programs that bring essential services directly to children and families in remote and underserved areas.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -195,12 +159,9 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-dolor"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="donation-details">Donate To Our Funds</Link>
+                                                        <h3 className="services-one__title"><Link href="donation-details">Volunteer Programs</Link>
                                                         </h3>
-                                                        <p className="services-one__text">category that involves giving
-                                                            financial or to a materialt support various causes
-                                                            organizations It allows not to go individuals towards
-                                                            addressing </p>
+                                                        <p className="services-one__text">Opportunities for individuals to volunteer and make a direct impact in children's lives through various support and mentorship programs.</p>
                                                     </div>
                                                 </div>
                                             </div>

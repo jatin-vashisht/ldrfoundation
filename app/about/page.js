@@ -49,8 +49,8 @@ export default function Home() {
                                 <div className="section-title__tagline-box">
                                     <span className="section-title__tagline">About Us</span>
                                 </div>
-                                <h2 className="section-title__title title-animation">Unite for a Cause
-                                    <br/> Change the World</h2>
+                                <h2 className="section-title__title title-animation">Empowering Children
+                                    <br/> Building Futures</h2>
                             </div>
                             <div className="about-One__vission-mission">
                                 <div className="about-One__tab-box tabs-box">
@@ -63,27 +63,21 @@ export default function Home() {
                                         {/*tab*/}
                                         <div className={activeIndex == 1 ? "tab fadeInUp animated show active-tab" : "tab fadeInUp animated"}>
                                             <div className="tabs-content__inner">
-                                                <p>Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                                                    aspernaturaut odit aut fugit, sed quia consequuntur. Dicta sunt
-                                                    explicabo. Nemo enim ipsam voluptatem quia voluptas.</p>
+                                                <p>To provide comprehensive healthcare, education, and support services to children in need, ensuring every child has access to quality medical care, nutritional support, and educational opportunities for a brighter future.</p>
                                             </div>
                                         </div>
                                         {/*tab*/}
                                         {/*tab*/}
                                         <div className={activeIndex == 2 ? "tab fadeInUp animated show active-tab" : "tab fadeInUp animated"}>
                                             <div className="tabs-content__inner">
-                                                <p>Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                                                    aspernaturaut odit aut fugit, sed quia consequuntur. Dicta sunt
-                                                    explicabo. Nemo enim ipsam voluptatem quia voluptas.</p>
+                                                <p>A world where every child, regardless of their circumstances, has the opportunity to grow up healthy, educated, and empowered to reach their full potential and contribute positively to society.</p>
                                             </div>
                                         </div>
                                         {/*tab*/}
                                         {/*tab*/}
                                         <div className={activeIndex == 3 ? "tab fadeInUp animated show active-tab" : "tab fadeInUp animated"}>
                                             <div className="tabs-content__inner">
-                                                <p>Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                                                    aspernaturaut odit aut fugit, sed quia consequuntur. Dicta sunt
-                                                    explicabo. Nemo enim ipsam voluptatem quia voluptas.</p>
+                                                <p>To transform the lives of 100,000 children by 2030 through sustainable healthcare programs, quality education initiatives, and community support systems that create lasting positive change.</p>
                                             </div>
                                         </div>
                                         {/*tab*/}
@@ -139,8 +133,7 @@ export default function Home() {
                             </div>
                             <div className="found-one__content">
                                 <h4 className="found-one__title"><Link href="donation-details">Help For Ecosystem</Link></h4>
-                                <p className="found-one__text">Charity and Donation is a categorys that involves giving
-                                    financial </p>
+                                <p className="found-one__text">Supporting environmental conservation and sustainable practices for children's future.</p>
                                 <div className="found-one__goals">
                                     <div className="found-one__raised">
                                         <p>Raised</p>
@@ -176,8 +169,7 @@ export default function Home() {
                             </div>
                             <div className="found-one__content">
                                 <h4 className="found-one__title"><Link href="donation-details">Water For All</Link></h4>
-                                <p className="found-one__text">Charity and Donation is a categorys that involves giving
-                                    financial </p>
+                                <p className="found-one__text">Providing clean drinking water access to children in underserved communities.</p>
                                 <div className="found-one__goals">
                                     <div className="found-one__raised">
                                         <p>Raised</p>
@@ -213,8 +205,7 @@ export default function Home() {
                             </div>
                             <div className="found-one__content">
                                 <h4 className="found-one__title"><Link href="donation-details">Vaccine Aid Camp</Link></h4>
-                                <p className="found-one__text">Charity and Donation is a categorys that involves giving
-                                    financial </p>
+                                <p className="found-one__text">Organizing vaccination camps to protect children from preventable diseases.</p>
                                 <div className="found-one__goals">
                                     <div className="found-one__raised">
                                         <p>Raised</p>
@@ -255,9 +246,7 @@ export default function Home() {
                             </div>
                             <h3 className="donate-one__title"><Link href="donation-details">Help Them With Donation</Link>
                             </h3>
-                            <p className="donate-one__text">Dicta sunt explicabo. Nemo enim ipsam voluptatem<br/> quia
-                                voluptas
-                                sit aspernaturaut odit aut fugit, sed<br/> quia consequuntur. Dicta sunt explicabo. Nemo
+                            <p className="donate-one__text">Your donation directly supports children's healthcare,<br/> education, and essential services. Every contribution<br/> makes a meaningful difference in a child's life and future.
                             </p>
                             <div className="donate-one__btn-box">
                                 <Link href="donation-details" className="donate-one__btn thm-btn">Donate Now<span><i
@@ -272,9 +261,7 @@ export default function Home() {
                             </div>
                             <h3 className="donate-one__title"><Link href="become-volunteer">Join With Us To Serve As
                                     Volenteer</Link></h3>
-                            <p className="donate-one__text">Dicta sunt explicabo. Nemo enim ipsam voluptatem<br/> quia
-                                voluptas
-                                sit aspernaturaut odit aut fugit, sed<br/> quia consequuntur. Dicta sunt explicabo. Nemo
+                            <p className="donate-one__text">Join our mission to help children in need. Volunteer<br/> your time and skills to make a direct impact on<br/> young lives and create lasting positive change.
                             </p>
                             <div className="donate-one__btn-box">
                                 <Link href="become-volunteer" className="donate-one__btn thm-btn">Join Now<span><i
@@ -306,8 +293,7 @@ export default function Home() {
                                 <h2 className="section-title__title title-animation">Supporting Dreams Changing
                                     Lives</h2>
                             </div>
-                            <p className="who-we-are__text">Lorem Ipsum is simply dummy a of the printing and type setting
-                                industry Loreaim Ipsum has been the industry's standard dummy</p>
+                            <p className="who-we-are__text">We are a dedicated NGO committed to transforming children's lives through comprehensive healthcare, education, and support services, creating opportunities for every child to thrive.</p>
                             <div className="who-we-are__progress-box">
                                 <ul className="who-we-are__progress-list list-unstyled">
                                     <li>
@@ -382,8 +368,7 @@ export default function Home() {
                             </div>
                             <div className="event-one__content">
                                 <h4 className="event-one__title"><Link href="event-details">Donation Drive</Link></h4>
-                                <p className="event-one__text">Lorem Ipsum is simply dummy a of the printing and type
-                                    setting industry Loreaim Ipsum has</p>
+                                <p className="event-one__text">Join our community donation drive to collect essential supplies and funds for children's healthcare and education programs.</p>
                                 <p className="event-one__location"><span className="icon-pin"></span>6391 Elgin St. Celina,
                                     10299</p>
                                 <div className="event-one__btn-box">
@@ -407,8 +392,7 @@ export default function Home() {
                             </div>
                             <div className="event-one__content">
                                 <h4 className="event-one__title"><Link href="event-details">win-win survival</Link></h4>
-                                <p className="event-one__text">Lorem Ipsum is simply dummy a of the printing and type
-                                    setting industry Loreaim Ipsum has</p>
+                                <p className="event-one__text">Collaborative survival skills workshop helping children and families build resilience and self-reliance in challenging situations.</p>
                                 <p className="event-one__location"><span className="icon-pin"></span>6391 Elgin St. Celina,
                                     10299</p>
                                 <div className="event-one__btn-box">
@@ -432,8 +416,7 @@ export default function Home() {
                             </div>
                             <div className="event-one__content">
                                 <h4 className="event-one__title"><Link href="event-details">Children Education.</Link></h4>
-                                <p className="event-one__text">Lorem Ipsum is simply dummy a of the printing and type
-                                    setting industry Loreaim Ipsum has</p>
+                                <p className="event-one__text">Educational outreach program providing quality learning opportunities and resources to children in underserved communities.</p>
                                 <p className="event-one__location"><span className="icon-pin"></span>6391 Elgin St. Celina,
                                     10299</p>
                                 <div className="event-one__btn-box">

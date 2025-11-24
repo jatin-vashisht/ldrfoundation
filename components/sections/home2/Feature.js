@@ -18,7 +18,7 @@ export default function Feature() {
                             </div>
                             <div className="feature-one__content">
                                 <h4><Link href="volunteer">Volunteer</Link></h4>
-                                <p>Dicta sunt explicabo. Nemo enim ipsam voluptatem quia </p>
+                                <p>Help children in need by volunteering your time and skills.</p>
                             </div>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ export default function Feature() {
                             </div>
                             <div className="feature-one__content">
                                 <h4><Link href="donation">Donate</Link></h4>
-                                <p>Dicta sunt explicabo. Nemo enim ipsam voluptatem quia </p>
+                                <p>Support children with healthcare, education, and essential services.</p>
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ export default function Feature() {
                             </div>
                             <div className="feature-one__content">
                                 <h4><Link href="contact">Support</Link></h4>
-                                <p>Dicta sunt explicabo. Nemo enim ipsam voluptatem quia </p>
+                                <p>Join us in creating lasting change for children and communities.</p>
                             </div>
                         </div>
                     </div>

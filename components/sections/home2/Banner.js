@@ -53,10 +53,8 @@ export default function Banner() {
                     </div>
                     <div className="container">
                         <div className="main-slider-two__content">
-                            <h2 className="main-slider-two__title">Help Leading <br/> better Life</h2>
-                            <p className="main-slider-two__text">We help companies develop powerful corporate social
-                                responsibility, grantmaking, <br/> and employee engagement strategies. Dicta sunt
-                                explicabo. Nemo</p>
+                            <h2 className="main-slider-two__title">Empowering Children <br/> for a Brighter Future</h2>
+                            <p className="main-slider-two__text">We provide comprehensive healthcare, education, and support services <br/> to children in need, ensuring every child has the opportunity to thrive and reach their full potential.</p>
                             <div className="main-slider-two__btn-box">
                                 <Link href="about" className="thm-btn main-slider-two__btn">Discover more<span><i
                                             className="icon-arrow-right"></i></span></Link>
@@ -86,10 +84,8 @@ export default function Banner() {
                     </div>
                     <div className="container">
                         <div className="main-slider-two__content">
-                            <h2 className="main-slider-two__title">Help Leading <br/> better Life</h2>
-                            <p className="main-slider-two__text">We help companies develop powerful corporate social
-                                responsibility, grantmaking, <br/> and employee engagement strategies. Dicta sunt
-                                explicabo. Nemo</p>
+                            <h2 className="main-slider-two__title">Building Healthy <br/> Communities</h2>
+                            <p className="main-slider-two__text">Through medical care, nutritional support, and educational programs, <br/> we create lasting change in children's lives and strengthen communities for generations to come.</p>
                             <div className="main-slider-two__btn-box">
                                 <Link href="about" className="thm-btn main-slider-two__btn">Discover more<span><i
                                             className="icon-arrow-right"></i></span></Link>
@@ -119,10 +115,8 @@ export default function Banner() {
                     </div>
                     <div className="container">
                         <div className="main-slider-two__content">
-                            <h2 className="main-slider-two__title">Help Leading <br/> better Life</h2>
-                            <p className="main-slider-two__text">We help companies develop powerful corporate social
-                                responsibility, grantmaking, <br/> and employee engagement strategies. Dicta sunt
-                                explicabo. Nemo</p>
+                            <h2 className="main-slider-two__title">Every Child <br/> Deserves Hope</h2>
+                            <p className="main-slider-two__text">From emergency medical care to long-term educational support, <br/> we stand with children and families during their most challenging moments, providing hope and healing.</p>
                             <div className="main-slider-two__btn-box">
                                 <Link href="about" className="thm-btn main-slider-two__btn">Discover more<span><i
                                             className="icon-arrow-right"></i></span></Link>

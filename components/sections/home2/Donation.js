@@ -22,8 +22,8 @@ export default function Donation() {
                             <div className="section-title-two__tagline-box">
                                 <span className="section-title-two__tagline">Join Us Now</span>
                             </div>
-                            <h2 className="section-title-two__title title-animation">Helping To Make Our <br/> World&nbsp;
-                                <span>Better</span> Living </h2>
+                            <h2 className="section-title-two__title title-animation">Creating Brighter <br/> Futures&nbsp;
+                                <span>For</span> Children </h2>
                         </div>
                         <div className="donation-one__donate-box">
                             <div className="donate-amount wow fadeInUp" data-wow-delay=".5s">
