@@ -86,12 +86,12 @@ export default function Blog() {
                     <img
                       src="/poor.jpg"
                       alt="@@title"
-                      style={{ height: "230px" }}
+                      className="blog-two__img-poor"
                     />
                     <img
                       src="/poor2.jpg"
                       alt="@@title"
-                      style={{ height: "230px" }}
+                      className="blog-two__img-poor"
                     />
                     <Link href="blog-details" className="blog-two__link">
                       <span className="sr-only"></span>
@@ -146,12 +146,12 @@ export default function Blog() {
                     <img
                       src="education.jpg"
                       alt="@@title"
-                      style={{ height: "230px" }}
+                      className="blog-two__img-education"
                     />
                     <img
                       src="education2.jpg"
                       alt="@@title"
-                      style={{ height: "230px" }}
+                      className="blog-two__img-education"
                     />
                     <Link href="blog-details" className="blog-two__link">
                       <span className="sr-only"></span>

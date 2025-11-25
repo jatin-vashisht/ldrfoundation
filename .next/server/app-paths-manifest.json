@@ -1,4 +1,12 @@
 {
   "/page": "app/page.js",
-  "/api/create-razorpay-order/route": "app/api/create-razorpay-order/route.js"
+  "/not-found": "app/not-found.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/faq/page": "app/faq/page.js",
+  "/testimonials/page": "app/testimonials/page.js",
+  "/about/page": "app/about/page.js",
+  "/donation-details/page": "app/donation-details/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/donation/page": "app/donation/page.js"
 }
