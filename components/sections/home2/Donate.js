@@ -112,7 +112,7 @@ export default function Donate() {
                     <img
                       src="/clean-water.webp"
                       alt=""
-                      style={{ height: "200px" }}
+                      className="donate-two__img-clean-water"
                     />
                     <img src="/healthy-food.png" alt="" />
                   </div>
