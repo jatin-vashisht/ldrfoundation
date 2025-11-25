@@ -1,10 +1,8 @@
 {
   "/page": "app/page.js",
-  "/not-found": "app/not-found.js",
-  "/blog/page": "app/blog/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/volunteer/page": "app/volunteer/page.js",
   "/testimonials/page": "app/testimonials/page.js",
   "/about/page": "app/about/page.js",
-  "/faq/page": "app/faq/page.js",
-  "/cause-details/[id]/page": "app/cause-details/[id]/page.js"
+  "/faq/page": "app/faq/page.js"
 }
