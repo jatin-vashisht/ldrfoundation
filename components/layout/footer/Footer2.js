@@ -25,8 +25,12 @@ export default function Footer2() {
                       <br /> Your small gift creates a greener, healthier Earth.
                     </p>
                     <div
-                      className="footer-widget-two__btn-box"
-                      style={{ display: "flex", gap: "10px" }}
+                      className="footer-widget-two__btn-box footer-btn-responsive"
+                      style={{
+                        display: "flex",
+                        gap: "10px",
+                        flexDirection: "row"
+                      }}
                     >
                       <Link
                         href="volunteer"
@@ -50,7 +54,7 @@ export default function Footer2() {
                   </div>
                 </div>
                 <div
-                  className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp"
+                  className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp footer-services-column"
                   data-wow-delay="200ms"
                 >
                   <div className="footer-widget-two__services">
@@ -75,7 +79,7 @@ export default function Footer2() {
                   </div>
                 </div>
                 <div
-                  className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp"
+                  className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp footer-links-column"
                   data-wow-delay="300ms"
                 >
                   <div className="footer-widget-two__links">
@@ -170,6 +174,27 @@ export default function Footer2() {
           </div>
         </div>
       </footer>
+      <style jsx global>{`
+        @media (max-width: 499px) {
+          .footer-btn-responsive {
+            flex-direction: column !important;
+          }
+        }
+        
+        @media (max-width: 767px) {
+          .footer-services-column,
+          .footer-links-column {
+            width: 50% !important;
+            flex: 0 0 50% !important;
+            max-width: 50% !important;
+            float: left;
+          }
+          .site-footer-two__top-inner .row {
+            display: flex !important;
+            flex-wrap: wrap !important;
+          }
+        }
+      `}</style>
     </>
   );
 }
