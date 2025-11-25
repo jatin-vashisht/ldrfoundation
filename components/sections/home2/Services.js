@@ -22,7 +22,7 @@ export default function Services() {
                             <div className="col-xl-3 col-lg-4">
                                 <ul className="tab-buttons clearfix list-unstyled">
                                     
-                                    <li className={activeIndex == 1 ? "tab-btn active-btn" : "tab-btn"} onClick={() => handleOnClick(1)}><span>Healthcare</span></li>
+                                    <li className={activeIndex == 1 ? "tab-btn active-btn" : "tab-btn"} onClick={() => handleOnClick(1)}><span>Plantation</span></li>
                                     <li className={activeIndex == 2 ? "tab-btn active-btn" : "tab-btn"} onClick={() => handleOnClick(2)}><span>Education</span></li>
                                     <li className={activeIndex == 3 ? "tab-btn active-btn" : "tab-btn"} onClick={() => handleOnClick(3)}><span>Support</span></li>
                                     
@@ -39,8 +39,8 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-hand"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="become-volunteer">Medical Treatment</Link></h3>
-                                                        <p className="services-one__text">Providing essential medical care and treatment to children in need, ensuring access to quality healthcare services and life-saving interventions.</p>
+                                                        <h3 className="services-one__title"><Link href="cause-details/1">Tree Plantation</Link></h3>
+                                                        <p className="services-one__text">Large-scale tree plantation drives to restore forest cover, combat climate change, and create sustainable green spaces for future generations.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -48,8 +48,8 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-love"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="cause-details">Vaccination Programs</Link></h3>
-                                                        <p className="services-one__text">Comprehensive immunization programs to protect children from preventable diseases and ensure healthy development from infancy through adolescence.</p>
+                                                        <h3 className="services-one__title"><Link href="cause-details/1">Forest Restoration</Link></h3>
+                                                        <p className="services-one__text">Comprehensive forest restoration programs to rehabilitate degraded lands and restore natural ecosystems for biodiversity conservation.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -57,9 +57,9 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-help"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="donation">Nutritional Support</Link>
+                                                        <h3 className="services-one__title"><Link href="cause-details/1">Community Gardens</Link>
                                                         </h3>
-                                                        <p className="services-one__text">Providing healthy meals and nutritional supplements to combat malnutrition and support proper growth and development in children.</p>
+                                                        <p className="services-one__text">Creating community gardens and urban green spaces to promote environmental awareness and provide fresh produce to local communities.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -67,9 +67,9 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-dolor"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="donation-details">Emergency Care</Link>
+                                                        <h3 className="services-one__title"><Link href="cause-details/1">Environmental Education</Link>
                                                         </h3>
-                                                        <p className="services-one__text">24/7 emergency medical services for children facing critical health situations, providing immediate care when every moment counts.</p>
+                                                        <p className="services-one__text">Educational programs to raise awareness about environmental conservation and teach communities sustainable practices for a greener future.</p>
                                                     </div>
                                                 </div>
                                             </div>

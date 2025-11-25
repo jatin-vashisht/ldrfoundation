@@ -55,18 +55,18 @@ export default function Donate() {
               <div className="donate-two__single">
                 <div className="donate-two__img-box">
                   <div className="donate-two__img">
-                    <img src="/cancer.webp" alt="" />
-                    <img src="/child-cancer.jpg" alt="" />
+                    <img src="/ecosystem.jpg" alt="" />
+                    <img src="/ecosystem2.jpg" alt="" />
                   </div>
                 </div>
                 <div className="donate-two__content">
                   <h3 className="donate-two__title">
-                    <Link href="cause-details">Children Cancer Help Fund</Link>
+                    <Link href="cause-details/1">Plantation & Aforestation Initiative</Link>
                   </h3>
                   <p className="donate-two__text">
-                    Supporting young fighters battling cancer by providing
-                    access to treatment, medicines, and emotional care. Every
-                    contribution brings hope to a child's recovery journey.
+                    Creating green spaces and restoring forests to combat climate change.
+                    We plant native trees, restore degraded lands, and educate communities
+                    about environmental conservation for a sustainable future.
                   </p>
                   <div className="donate-two__goals">
                     <div className="donate-two__raised">
@@ -112,14 +112,14 @@ export default function Donate() {
                     <img
                       src="/clean-water.webp"
                       alt=""
-                      style={{ height: "200px" }}
+                      // style={{ height: "200px" }}
                     />
                     <img src="/healthy-food.png" alt="" />
                   </div>
                 </div>
                 <div className="donate-two__content">
                   <h3 className="donate-two__title">
-                    <Link href="cause-details">Clean Water & Healthy Food</Link>
+                    <Link href="cause-details/2">Clean Water & Healthy Food</Link>
                   </h3>
                   <p className="donate-two__text">
                     Providing clean drinking water and nutritious meals to
@@ -167,19 +167,19 @@ export default function Donate() {
               <div className="donate-two__single donate-two__single-3">
                 <div className="donate-two__img-box">
                   <div className="donate-two__img">
-                    <img src="/medical-support.jpg" alt="" />
-                    <img src="/medicine.jpg" alt="" />
+                    <img src="/education.jpg" alt="" />
+                    <img src="/education2.jpg" alt="" />
                   </div>
                 </div>
                 <div className="donate-two__content">
                   <h3 className="donate-two__title">
-                    <Link href="cause-details">Medicine For Indians</Link>
+                    <Link href="cause-details/3">Education For Kids</Link>
                   </h3>
                   <p className="donate-two__text">
-                    Delivering essential medicines and medical supplies to
-                    children across India who lack access to healthcare. We
-                    provide life-saving medications, vaccines, and medical
-                    equipment to remote areas and underserved communities.
+                    Providing quality education and learning resources to
+                    underprivileged children across India. We build schools,
+                    train teachers, and supply educational materials to ensure
+                    every child has access to basic education and a brighter future.
                   </p>
                   <div className="donate-two__goals">
                     <div className="donate-two__raised">

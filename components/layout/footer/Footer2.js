@@ -16,8 +16,9 @@ export default function Footer2() {
                                 <div className="footer-widget-two__about">
                                     <h2 className="footer-widget-two__about-title">Donate To Change The World</h2>
                                     <p className="footer-widget-two__about-text">Plant a tree today and give the planet cleaner air tomorrow<br/> Your small gift creates a greener, healthier Earth.</p>
-                                    <div className="footer-widget-two__btn-box">
-                                        <Link href="donation-details" className="footer-widget-two__btn thm-btn">Volunteer<span><i className="icon-arrow-right"></i></span></Link>
+                                    <div className="footer-widget-two__btn-box" style={{display: 'flex', gap: '10px'}}>
+                                        <Link href="volunteer" className="footer-widget-two__btn thm-btn">Volunteer<span><i className="icon-arrow-right"></i></span></Link>
+                                        <Link href="donation-details" className="footer-widget-two__btn thm-btn">Donate Now<span><i className="icon-arrow-right"></i></span></Link>
                                     </div>
                                 </div>
                             </div>
