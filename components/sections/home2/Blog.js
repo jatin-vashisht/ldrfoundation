@@ -32,28 +32,28 @@ export default function Blog() {
                   <div className="blog-two__img">
                     <img src="/elder-care.png" alt="@@title" />
                     <img src="/elder-care2.png" alt="@@title" />
-                    <Link href="blog-details" className="blog-two__link">
+                    <p className="blog-two__link">
                       <span className="sr-only"></span>
-                    </Link>
+                    </p>
                   </div>
                 </div>
                 <div className="blog-two__content">
                   <ul className="blog-two__meta list-unstyled">
                     <li>
-                      <Link href="blog-details">
+                      <p>
                         <span className="icon-user"></span>Admin
-                      </Link>
+                      </p>
                     </li>
                     <li>
-                      <Link href="blog-details">
+                      <p>
                         <span className="icon-comment"></span>Comment
-                      </Link>
+                      </p>
                     </li>
                   </ul>
                   <h3 className="blog-two__title">
-                    <Link href="blog-details">
+                    <p>
                       Caring for the Elderly and Vulnerable Strategy{" "}
-                    </Link>
+                    </p>
                   </h3>
                   <p className="blog-two__text">
                     Comprehensive care strategies for elderly community members
@@ -93,28 +93,28 @@ export default function Blog() {
                       alt="@@title"
                       style={{ height: "230px" }}
                     />
-                    <Link href="blog-details" className="blog-two__link">
+                    <p className="blog-two__link">
                       <span className="sr-only"></span>
-                    </Link>
+                    </p>
                   </div>
                 </div>
                 <div className="blog-two__content">
                   <ul className="blog-two__meta list-unstyled">
                     <li>
-                      <Link href="blog-details">
+                      <p>
                         <span className="icon-user"></span>Admin
-                      </Link>
+                      </p>
                     </li>
                     <li>
-                      <Link href="blog-details">
+                      <p>
                         <span className="icon-comment"></span>Comment
-                      </Link>
+                      </p>
                     </li>
                   </ul>
                   <h3 className="blog-two__title">
-                    <Link href="blog-details">
+                    <p>
                       Our Goal Is Help The Poor Child Around The World
-                    </Link>
+                    </p>
                   </h3>
                   <p className="blog-two__text">
                     Our mission to provide healthcare, education, and essential
@@ -153,28 +153,28 @@ export default function Blog() {
                       alt="@@title"
                       style={{ height: "230px" }}
                     />
-                    <Link href="blog-details" className="blog-two__link">
+                    <p className="blog-two__link">
                       <span className="sr-only"></span>
-                    </Link>
+                    </p>
                   </div>
                 </div>
                 <div className="blog-two__content">
                   <ul className="blog-two__meta list-unstyled">
                     <li>
-                      <Link href="blog-details">
+                      <p>
                         <span className="icon-user"></span>Admin
-                      </Link>
+                      </p>
                     </li>
                     <li>
-                      <Link href="blog-details">
+                      <p>
                         <span className="icon-comment"></span>Comment
-                      </Link>
+                      </p>
                     </li>
                   </ul>
                   <h3 className="blog-two__title">
-                    <Link href="blog-details">
+                    <p>
                       Education For Poor Children Is A Must Now
-                    </Link>
+                    </p>
                   </h3>
                   <p className="blog-two__text">
                     Breaking barriers to education and creating opportunities

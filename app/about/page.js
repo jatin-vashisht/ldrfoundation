@@ -362,15 +362,15 @@ export default function Home() {
                                 <div className="event-one__img">
                                     <img src="/donation.jpg" alt=""/>
                                 </div>
-                                <div className="event-one__date">
+                                {/* <div className="event-one__date">
                                     <p><span className="icon-clock"></span>20th Dec, 2024</p>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="event-one__content">
-                                <h4 className="event-one__title"><Link href="event-details">Donation Drive</Link></h4>
+                                <h4 className="event-one__title"><>Donation Drive</></h4>
                                 <p className="event-one__text">Join our community donation drive to collect essential supplies and funds for children's healthcare and education programs.</p>
-                                <p className="event-one__location"><span className="icon-pin"></span>6391 Elgin St. Celina,
-                                    10299</p>
+                                {/* <p className="event-one__location"><span className="icon-pin"></span>6391 Elgin St. Celina,
+                                    10299</p> */}
                                 <div className="event-one__btn-box">
                                     <Link href="donation-details" className="event-one__btn thm-btn">Donate Now<span><i
                                                 className="icon-arrow-right"></i></span></Link>
@@ -386,15 +386,15 @@ export default function Home() {
                                 <div className="event-one__img">
                                     <img src="/win.jpg" alt=""/>
                                 </div>
-                                <div className="event-one__date">
+                                {/* <div className="event-one__date">
                                     <p><span className="icon-clock"></span>15th nov, 2023</p>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="event-one__content">
-                                <h4 className="event-one__title"><Link href="event-details">win-win survival</Link></h4>
+                                <h4 className="event-one__title"><>win-win survival</></h4>
                                 <p className="event-one__text">Collaborative survival skills workshop helping children and families build resilience and self-reliance in challenging situations.</p>
-                                <p className="event-one__location"><span className="icon-pin"></span>6391 Elgin St. Celina,
-                                    10299</p>
+                                {/* <p className="event-one__location"><span className="icon-pin"></span>6391 Elgin St. Celina,
+                                    10299</p> */}
                                 <div className="event-one__btn-box">
                                     <Link href="donation-details" className="event-one__btn thm-btn">Donate Now<span><i
                                                 className="icon-arrow-right"></i></span></Link>
@@ -410,15 +410,15 @@ export default function Home() {
                                 <div className="event-one__img">
                                     <img src="/education.jpg" alt="" style={{height: '210px'}}/>
                                 </div>
-                                <div className="event-one__date">
+                                {/* <div className="event-one__date">
                                     <p><span className="icon-clock"></span>19th Feb, 2024</p>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="event-one__content">
-                                <h4 className="event-one__title"><Link href="event-details">Children Education.</Link></h4>
+                                <h4 className="event-one__title"><>Children Education.</></h4>
                                 <p className="event-one__text">Educational outreach program providing quality learning opportunities and resources to children in underserved communities.</p>
-                                <p className="event-one__location"><span className="icon-pin"></span>6391 Elgin St. Celina,
-                                    10299</p>
+                                {/* <p className="event-one__location"><span className="icon-pin"></span>6391 Elgin St. Celina,
+                                    10299</p> */}
                                 <div className="event-one__btn-box">
                                     <Link href="donation-details" className="event-one__btn thm-btn">Donate Now<span><i
                                                 className="icon-arrow-right"></i></span></Link>

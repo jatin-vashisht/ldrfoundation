@@ -1,6 +1,10 @@
 {
   "/page": "app/page.js",
-  "/testimonials/page": "app/testimonials/page.js",
-  "/about/page": "app/about/page.js",
-  "/donation-details/page": "app/donation-details/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/not-found": "app/not-found.js",
+  "/contact/page": "app/contact/page.js",
+  "/donation/page": "app/donation/page.js",
+  "/volunteer/page": "app/volunteer/page.js",
+  "/faq/page": "app/faq/page.js",
+  "/testimonials/page": "app/testimonials/page.js"
 }

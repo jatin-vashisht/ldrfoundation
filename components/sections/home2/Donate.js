@@ -75,7 +75,7 @@ export default function Donate() {
                     </div>
                     <div className="donate-two__raised">
                       <p>Goal:</p>
-                      <span>$9,090</span>
+                      <span>₹9,090</span>
                     </div>
                   </div>
                   <div className="donate-two__progress">
@@ -129,11 +129,11 @@ export default function Donate() {
                   <div className="donate-two__goals">
                     <div className="donate-two__raised">
                       <p>Raised:</p>
-                      <span>$4,090</span>
+                      <span>₹4,090</span>
                     </div>
                     <div className="donate-two__raised">
                       <p>Goal:</p>
-                      <span>$6,090</span>
+                      <span>₹6,090</span>
                     </div>
                   </div>
                   <div className="donate-two__progress">
@@ -184,11 +184,11 @@ export default function Donate() {
                   <div className="donate-two__goals">
                     <div className="donate-two__raised">
                       <p>Raised:</p>
-                      <span>$9,090</span>
+                      <span>₹9,090</span>
                     </div>
                     <div className="donate-two__raised">
                       <p>Goal:</p>
-                      <span>$11,090</span>
+                      <span>₹11,090</span>
                     </div>
                   </div>
                   <div className="donate-two__progress">

@@ -54,7 +54,7 @@ export default function Banner() {
                     <div className="container">
                         <div className="main-slider-two__content">
                             <h2 className="main-slider-two__title">Empowering Children <br/> for a Brighter Future</h2>
-                            <p className="main-slider-two__text">We provide comprehensive healthcare, education, and support services <br/> to children in need, ensuring every child has the opportunity to thrive and reach their full potential.</p>
+                            <p className="main-slider-two__text">We provide comprehensive healthcare, education, and support services to children in need, ensuring every child has the opportunity to thrive and reach their full potential.</p>
                             <div className="main-slider-two__btn-box">
                                 <Link href="about" className="thm-btn main-slider-two__btn">Discover more<span><i
                                             className="icon-arrow-right"></i></span></Link>

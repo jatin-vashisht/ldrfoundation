@@ -18,28 +18,29 @@ export default function Home() {
                 <div className="donate-three__single">
                   <div className="donate-three__img-box">
                     <div className="donate-three__img">
-                      <img src="/cancer.webp" alt="" />
-                      <img src="/child-cancer.jpg" alt="" />
+                      <img src="/ecosystem.jpg" alt="" />
+                      <img src="/ecosystem2.jpg" alt="" />
                     </div>
                   </div>
                   <div className="donate-three__content">
                     <h3 className="donate-three__title">
-                      <Link href="donation-details">
-                        Children Cancer Help Fund
+                      <Link href="cause-details/1">
+                        Plantation & Aforestation Initiative
                       </Link>
                     </h3>
                     <p className="donate-three__text">
-                      Helping children with cancer access treatment, medicines,
-                      and care to bring them hope and healing.
+                      Creating green spaces and restoring forests to combat climate change.
+                      We plant native trees, restore degraded lands, and educate communities
+                      about environmental conservation for a sustainable future.
                     </p>
                     <div className="donate-three__goals">
                       <div className="donate-three__raised">
                         <p>Raised:</p>
-                        <span>₹50,090</span>
+                        <span>₹5,090</span>
                       </div>
                       <div className="donate-three__raised">
                         <p>Goal:</p>
-                        <span>₹90,090</span>
+                        <span>₹9,090</span>
                       </div>
                     </div>
                     <div className="donate-three__progress">
@@ -50,6 +51,17 @@ export default function Home() {
                           style={{ width: "75%" }}
                         ></div>
                       </div>
+                    </div>
+                    <div className="donate-three__btn-box-2" style={{ marginTop: "20px", textAlign: "center" }}>
+                      <Link
+                        href="donation-details"
+                        className="donate-three__btn-2 thm-btn"
+                      >
+                        Donate Now
+                        <span>
+                          <i className="icon-arrow-right"></i>
+                        </span>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -66,29 +78,30 @@ export default function Home() {
                       <img
                         src="/clean-water.webp"
                         alt=""
-                        style={{ height: "220px" }}
+                        // style={{ height: "220px" }}
                       />
                       <img src="/healthy-food.png" alt="" />
                     </div>
                   </div>
                   <div className="donate-three__content">
                     <h3 className="donate-three__title">
-                      <Link href="donation-details">
-                        Clean Water & Health Food
+                      <Link href="cause-details/2">
+                        Clean Water & Healthy Food
                       </Link>
                     </h3>
                     <p className="donate-three__text">
-                      Providing safe drinking water and nutritious meals to
-                      prevent disease and hunger in poor communities.
+                      Providing clean drinking water and nutritious meals to
+                      children in underserved communities. Your support ensures
+                      healthy growth and development for vulnerable children.
                     </p>
                     <div className="donate-three__goals">
                       <div className="donate-three__raised">
                         <p>Raised:</p>
-                        <span>₹40,090</span>
+                        <span>₹4,090</span>
                       </div>
                       <div className="donate-three__raised">
                         <p>Goal:</p>
-                        <span>₹60,090</span>
+                        <span>₹6,090</span>
                       </div>
                     </div>
                     <div className="donate-three__progress">
@@ -99,6 +112,17 @@ export default function Home() {
                           style={{ width: "75%" }}
                         ></div>
                       </div>
+                    </div>
+                    <div className="donate-three__btn-box-2" style={{ marginTop: "20px", textAlign: "center" }}>
+                      <Link
+                        href="donation-details"
+                        className="donate-three__btn-2 thm-btn"
+                      >
+                        Donate Now
+                        <span>
+                          <i className="icon-arrow-right"></i>
+                        </span>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -112,26 +136,28 @@ export default function Home() {
                 <div className="donate-three__single donate-three__single-3">
                   <div className="donate-three__img-box">
                     <div className="donate-three__img">
-                      <img src="/medical-support.jpg" alt="" />
-                      <img src="/medicine.jpg" alt="" />
+                      <img src="/education.jpg" alt="" />
+                      <img src="/education2.jpg" alt="" />
                     </div>
                   </div>
                   <div className="donate-three__content">
                     <h3 className="donate-three__title">
-                      <Link href="donation-details">Medicine For Indians</Link>
+                      <Link href="cause-details/3">Education For Kids</Link>
                     </h3>
                     <p className="donate-three__text">
-                      Delivering life-saving medicines and healthcare support to
-                      families with limited medical access.
+                      Providing quality education and learning resources to
+                      underprivileged children across India. We build schools,
+                      train teachers, and supply educational materials to ensure
+                      every child has access to basic education and a brighter future.
                     </p>
                     <div className="donate-three__goals">
                       <div className="donate-three__raised">
                         <p>Raised:</p>
-                        <span>₹90,090</span>
+                        <span>₹9,090</span>
                       </div>
                       <div className="donate-three__raised">
                         <p>Goal:</p>
-                        <span>₹1,10,090</span>
+                        <span>₹11,090</span>
                       </div>
                     </div>
                     <div className="donate-three__progress">
@@ -142,6 +168,17 @@ export default function Home() {
                           style={{ width: "75%" }}
                         ></div>
                       </div>
+                    </div>
+                    <div className="donate-three__btn-box-2" style={{ marginTop: "20px", textAlign: "center" }}>
+                      <Link
+                        href="donation-details"
+                        className="donate-three__btn-2 thm-btn"
+                      >
+                        Donate Now
+                        <span>
+                          <i className="icon-arrow-right"></i>
+                        </span>
+                      </Link>
                     </div>
                   </div>
                 </div>

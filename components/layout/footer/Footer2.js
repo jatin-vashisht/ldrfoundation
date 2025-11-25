@@ -26,10 +26,11 @@ export default function Footer2() {
                                 <div className="footer-widget-two__services">
                                     <h4 className="footer-widget-two__title">Services</h4>
                                     <ul className="footer-widget-two__services-list list-unstyled">
-                                        <li><Link href="about">Incident Responder</Link></li>
-                                        <li><Link href="about">Secure Managed Fund</Link></li>
-                                        <li><Link href="about">Clean Water All</Link></li>
-                                        <li><Link href="about">Give Education</Link></li>
+                                        <li><Link href="/">Home</Link></li>
+                                        <li><Link href="/about">About</Link></li>
+                                        <li><Link href="/contact">Contact</Link></li>
+                                        <li><Link href="/blog">Blog</Link></li>
+                                        <li><Link href="/donation">Donation</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -37,10 +38,10 @@ export default function Footer2() {
                                 <div className="footer-widget-two__links">
                                     <h4 className="footer-widget-two__title">Links</h4>
                                     <ul className="footer-widget-two__services-list list-unstyled">
-                                        <li><Link href="about">Food to individuals</Link></li>
-                                        <li><Link href="about">Temporary housing</Link></li>
-                                        <li><Link href="about">Local shelters</Link></li>
-                                        <li><Link href="about">Natural disasters</Link></li>
+                                        <li><Link href="/volunteer">Volunteer</Link></li>
+                                        <li><Link href="#">Events</Link></li>
+                                        <li><Link href="/testimonials">Testimonial</Link></li>
+                                        <li><Link href="/faq">FAQs</Link></li>
                                     </ul>
                                 </div>
                             </div>

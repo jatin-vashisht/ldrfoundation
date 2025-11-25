@@ -52,7 +52,7 @@ export default function About() {
                                             </div>
                                             <h4 className="about-two__title"><Link href="#">Medical Treatments</Link></h4>
                                             <div className="about-two__count count-box">
-                                                <p>$</p>
+                                                <p>₹</p>
                                                 <h2> <CounterUp end={509953} /> </h2>
                                                 <span>+</span>
                                             </div>
