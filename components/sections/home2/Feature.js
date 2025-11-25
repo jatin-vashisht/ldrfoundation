@@ -1,59 +1,79 @@
-'use client'
-import Link from "next/link"
+"use client";
+import Link from "next/link";
 
 export default function Feature() {
-    
-    return (
-        <>
-        
-        {/*Feature One Start */}
-        <section className="feature-one">
-            <div className="container">
-                <div className="row">
-                    {/*Feature One Single Start*/}
-                    <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                        <div className="feature-one__single">
-                            <div className="feature-one__icon">
-                                <span className="icon-hand"></span>
-                            </div>
-                            <div className="feature-one__content">
-                                <h4><Link href="volunteer">Volunteer</Link></h4>
-                                <p>Help children in need by volunteering your time and skills.</p>
-                            </div>
-                        </div>
-                    </div>
-                    {/*Feature One Single End*/}
-                    {/*Feature One Single Start*/}
-                    <div className="col-xl-4 col-lg-4 wow fadeInDown" data-wow-delay="200ms">
-                        <div className="feature-one__single feature-one__single-2">
-                            <div className="feature-one__icon">
-                                <span className="icon-love"></span>
-                            </div>
-                            <div className="feature-one__content">
-                                <h4><Link href="donation">Donate</Link></h4>
-                                <p>Support children with healthcare, education, and essential services.</p>
-                            </div>
-                        </div>
-                    </div>
-                    {/*Feature One Single End*/}
-                    {/*Feature One Single Start*/}
-                    <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
-                        <div className="feature-one__single feature-one__single-3">
-                            <div className="feature-one__icon">
-                                <span className="icon-support"></span>
-                            </div>
-                            <div className="feature-one__content">
-                                <h4><Link href="contact">Support</Link></h4>
-                                <p>Join us in creating lasting change for children and communities.</p>
-                            </div>
-                        </div>
-                    </div>
-                    {/*Feature One Single End*/}
+  return (
+    <>
+      {/*Feature One Start */}
+      <section className="feature-one">
+        <div className="container">
+          <div className="row">
+            {/*Feature One Single Start*/}
+            <div
+              className="col-xl-4 col-lg-4 wow fadeInUp"
+              data-wow-delay="100ms"
+            >
+              <div className="feature-one__single">
+                <div className="feature-one__icon">
+                  <span className="icon-hand"></span>
                 </div>
+                <div className="feature-one__content">
+                  <h4>
+                    <Link href="volunteer">Volunteer</Link>
+                  </h4>
+                  <p style={{textAlign: 'justify'}}>
+                    Help children in need by volunteering your time and skills.
+                  </p>
+                </div>
+              </div>
             </div>
-        </section>
-        {/*Feature One End */}
-
-        </>
-    )
+            {/*Feature One Single End*/}
+            {/*Feature One Single Start*/}
+            <div
+              className="col-xl-4 col-lg-4 wow fadeInDown"
+              data-wow-delay="200ms"
+            >
+              <div className="feature-one__single feature-one__single-2">
+                <div className="feature-one__icon">
+                  <span className="icon-love"></span>
+                </div>
+                <div className="feature-one__content">
+                  <h4>
+                    <Link href="donation">Donate</Link>
+                  </h4>
+                  <p style={{textAlign: 'justify'}}>
+                    Support children with healthcare, education, and essential
+                    services.
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/*Feature One Single End*/}
+            {/*Feature One Single Start*/}
+            <div
+              className="col-xl-4 col-lg-4 wow fadeInUp"
+              data-wow-delay="300ms"
+            >
+              <div className="feature-one__single feature-one__single-3">
+                <div className="feature-one__icon">
+                  <span className="icon-support"></span>
+                </div>
+                <div className="feature-one__content">
+                  <h4>
+                    <Link href="contact">Support</Link>
+                  </h4>
+                  <p style={{textAlign: 'justify'}}>
+                    Join us in creating lasting change for children and
+                    communities.
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/*Feature One Single End*/}
+          </div>
+        </div>
+      </section>
+      {/*Feature One End */}
+    </>
+  );
 }

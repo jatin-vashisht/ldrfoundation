@@ -22,7 +22,7 @@ export default function Services() {
                             <div className="col-xl-3 col-lg-4">
                                 <ul className="tab-buttons clearfix list-unstyled">
                                     
-                                    <li className={activeIndex == 1 ? "tab-btn active-btn" : "tab-btn"} onClick={() => handleOnClick(1)}><span>Healthcare</span></li>
+                                    <li className={activeIndex == 1 ? "tab-btn active-btn" : "tab-btn"} onClick={() => handleOnClick(1)}><span>Plantation</span></li>
                                     <li className={activeIndex == 2 ? "tab-btn active-btn" : "tab-btn"} onClick={() => handleOnClick(2)}><span>Education</span></li>
                                     <li className={activeIndex == 3 ? "tab-btn active-btn" : "tab-btn"} onClick={() => handleOnClick(3)}><span>Support</span></li>
                                     
@@ -39,8 +39,8 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-hand"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="become-volunteer">Medical Treatment</Link></h3>
-                                                        <p className="services-one__text">Providing essential medical care and treatment to children in need, ensuring access to quality healthcare services and life-saving interventions.</p>
+                                                        <h3 className="services-one__title"><Link href="cause-details/1">Tree Plantation</Link></h3>
+                                                        <p className="services-one__text" style={{textAlign: 'justify'}}>Large-scale tree plantation drives to restore forest cover, combat climate change, and create sustainable green spaces for future generations.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -48,8 +48,8 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-love"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="cause-details">Vaccination Programs</Link></h3>
-                                                        <p className="services-one__text">Comprehensive immunization programs to protect children from preventable diseases and ensure healthy development from infancy through adolescence.</p>
+                                                        <h3 className="services-one__title"><Link href="cause-details/1">Forest Restoration</Link></h3>
+                                                        <p className="services-one__text" style={{textAlign: 'justify'}}>Comprehensive forest restoration programs to rehabilitate degraded lands and restore natural ecosystems for biodiversity conservation.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -57,9 +57,9 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-help"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="donation">Nutritional Support</Link>
+                                                        <h3 className="services-one__title"><Link href="cause-details/1">Community Gardens</Link>
                                                         </h3>
-                                                        <p className="services-one__text">Providing healthy meals and nutritional supplements to combat malnutrition and support proper growth and development in children.</p>
+                                                        <p className="services-one__text" style={{textAlign: 'justify'}}>Creating community gardens and urban green spaces to promote environmental awareness and provide fresh produce to local communities.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -67,9 +67,9 @@ export default function Services() {
                                                         <div className="services-one__icon">
                                                             <span className="icon-dolor"></span>
                                                         </div>
-                                                        <h3 className="services-one__title"><Link href="donation-details">Emergency Care</Link>
+                                                        <h3 className="services-one__title"><Link href="cause-details/1">Environmental Education</Link>
                                                         </h3>
-                                                        <p className="services-one__text">24/7 emergency medical services for children facing critical health situations, providing immediate care when every moment counts.</p>
+                                                        <p className="services-one__text" style={{textAlign: 'justify'}}>Educational programs to raise awareness about environmental conservation and teach communities sustainable practices for a greener future.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -86,7 +86,7 @@ export default function Services() {
                                                             <span className="icon-hand"></span>
                                                         </div>
                                                         <h3 className="services-one__title"><Link href="become-volunteer">School Programs</Link></h3>
-                                                        <p className="services-one__text">Quality education programs designed to give children the knowledge and skills they need for a brighter future and better opportunities.</p>
+                                                        <p className="services-one__text" style={{textAlign: 'justify'}}>Quality education programs designed to give children the knowledge and skills they need for a brighter future and better opportunities.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -95,7 +95,7 @@ export default function Services() {
                                                             <span className="icon-love"></span>
                                                         </div>
                                                         <h3 className="services-one__title"><Link href="cause-details">Learning Resources</Link></h3>
-                                                        <p className="services-one__text">Providing books, educational materials, and digital learning tools to ensure children have access to quality educational resources.</p>
+                                                        <p className="services-one__text" style={{textAlign: 'justify'}}>Providing books, educational materials, and digital learning tools to ensure children have access to quality educational resources.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -105,7 +105,7 @@ export default function Services() {
                                                         </div>
                                                         <h3 className="services-one__title"><Link href="donation">Skill Development</Link>
                                                         </h3>
-                                                        <p className="services-one__text">Vocational training and skill development programs to prepare children and youth for future employment and self-reliance.</p>
+                                                        <p className="services-one__text" style={{textAlign: 'justify'}}>Vocational training and skill development programs to prepare children and youth for future employment and self-reliance.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -115,7 +115,7 @@ export default function Services() {
                                                         </div>
                                                         <h3 className="services-one__title"><Link href="donation-details">Scholarships</Link>
                                                         </h3>
-                                                        <p className="services-one__text">Educational scholarships and financial assistance to help deserving children continue their studies and achieve their academic goals.</p>
+                                                        <p className="services-one__text" style={{textAlign: 'justify'}}>Educational scholarships and financial assistance to help deserving children continue their studies and achieve their academic goals.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -132,7 +132,7 @@ export default function Services() {
                                                             <span className="icon-hand"></span>
                                                         </div>
                                                         <h3 className="services-one__title"><Link href="become-volunteer">Family Counseling</Link></h3>
-                                                        <p className="services-one__text">Professional counseling and guidance services for families to help them navigate challenges and create supportive environments for children.</p>
+                                                        <p className="services-one__text" style={{textAlign: 'justify'}}>Professional counseling and guidance services for families to help them navigate challenges and create supportive environments for children.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -141,7 +141,7 @@ export default function Services() {
                                                             <span className="icon-love"></span>
                                                         </div>
                                                         <h3 className="services-one__title"><Link href="cause-details">Child Protection</Link></h3>
-                                                        <p className="services-one__text">Comprehensive child protection services ensuring safety, security, and well-being of vulnerable children in challenging circumstances.</p>
+                                                        <p className="services-one__text" style={{textAlign: 'justify'}}>Comprehensive child protection services ensuring safety, security, and well-being of vulnerable children in challenging circumstances.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -151,7 +151,7 @@ export default function Services() {
                                                         </div>
                                                         <h3 className="services-one__title"><Link href="donation">Community Outreach</Link>
                                                         </h3>
-                                                        <p className="services-one__text">Community-based programs that bring essential services directly to children and families in remote and underserved areas.</p>
+                                                        <p className="services-one__text" style={{textAlign: 'justify'}}>Community-based programs that bring essential services directly to children and families in remote and underserved areas.</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-6 col-lg-6 col-md-6">
@@ -161,7 +161,7 @@ export default function Services() {
                                                         </div>
                                                         <h3 className="services-one__title"><Link href="donation-details">Volunteer Programs</Link>
                                                         </h3>
-                                                        <p className="services-one__text">Opportunities for individuals to volunteer and make a direct impact in children's lives through various support and mentorship programs.</p>
+                                                        <p className="services-one__text" style={{textAlign: 'justify'}}>Opportunities for individuals to volunteer and make a direct impact in children's lives through various support and mentorship programs.</p>
                                                     </div>
                                                 </div>
                                             </div>

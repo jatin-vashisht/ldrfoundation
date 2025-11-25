@@ -1,12 +1,10 @@
 {
   "/page": "app/page.js",
   "/not-found": "app/not-found.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/faq/page": "app/faq/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/volunteer/page": "app/volunteer/page.js",
   "/testimonials/page": "app/testimonials/page.js",
   "/about/page": "app/about/page.js",
-  "/donation-details/page": "app/donation-details/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/donation/page": "app/donation/page.js"
+  "/faq/page": "app/faq/page.js",
+  "/cause-details/[id]/page": "app/cause-details/[id]/page.js"
 }

@@ -32,30 +32,28 @@ export default function Blog() {
                   <div className="blog-two__img">
                     <img src="/elder-care.png" alt="@@title" />
                     <img src="/elder-care2.png" alt="@@title" />
-                    <Link href="blog-details" className="blog-two__link">
+                    <p className="blog-two__link">
                       <span className="sr-only"></span>
-                    </Link>
+                    </p>
                   </div>
                 </div>
                 <div className="blog-two__content">
                   <ul className="blog-two__meta list-unstyled">
                     <li>
-                      <Link href="blog-details">
+                      <p>
                         <span className="icon-user"></span>Admin
-                      </Link>
+                      </p>
                     </li>
                     <li>
-                      <Link href="blog-details">
+                      <p>
                         <span className="icon-comment"></span>Comment
-                      </Link>
+                      </p>
                     </li>
                   </ul>
                   <h3 className="blog-two__title">
-                    <Link href="blog-details">
-                      Caring for the Elderly and Vulnerable Strategy{" "}
-                    </Link>
+                    <p>Caring for the Elderly and Vulnerable Strategy </p>
                   </h3>
-                  <p className="blog-two__text">
+                  <p className="blog-two__text" style={{textAlign: 'justify'}}>
                     Comprehensive care strategies for elderly community members
                     and vulnerable populations in need of support. Our dedicated
                     programs ensure dignity.
@@ -65,7 +63,7 @@ export default function Blog() {
                       href="donation-details"
                       className="blog-two__btn thm-btn"
                     >
-                      rEAD mORe
+                      Read More
                       <span>
                         <i className="icon-arrow-right"></i>
                       </span>
@@ -86,37 +84,35 @@ export default function Blog() {
                     <img
                       src="/poor.jpg"
                       alt="@@title"
-                      className="blog-two__img-poor"
+                      style={{ height: "230px" }}
                     />
                     <img
                       src="/poor2.jpg"
                       alt="@@title"
-                      className="blog-two__img-poor"
+                      style={{ height: "230px" }}
                     />
-                    <Link href="blog-details" className="blog-two__link">
+                    <p className="blog-two__link">
                       <span className="sr-only"></span>
-                    </Link>
+                    </p>
                   </div>
                 </div>
                 <div className="blog-two__content">
                   <ul className="blog-two__meta list-unstyled">
                     <li>
-                      <Link href="blog-details">
+                      <p>
                         <span className="icon-user"></span>Admin
-                      </Link>
+                      </p>
                     </li>
                     <li>
-                      <Link href="blog-details">
+                      <p>
                         <span className="icon-comment"></span>Comment
-                      </Link>
+                      </p>
                     </li>
                   </ul>
                   <h3 className="blog-two__title">
-                    <Link href="blog-details">
-                      Our Goal Is Help The Poor Child Around The World
-                    </Link>
+                    <p>Our Goal Is Help The Poor Child Around The World</p>
                   </h3>
-                  <p className="blog-two__text">
+                  <p className="blog-two__text" style={{textAlign: 'justify'}}>
                     Our mission to provide healthcare, education, and essential
                     support to underprivileged children worldwide.
                   </p>
@@ -125,7 +121,7 @@ export default function Blog() {
                       href="donation-details"
                       className="blog-two__btn thm-btn"
                     >
-                      rEAD mORe
+                      Read More
                       <span>
                         <i className="icon-arrow-right"></i>
                       </span>
@@ -146,37 +142,35 @@ export default function Blog() {
                     <img
                       src="education.jpg"
                       alt="@@title"
-                      className="blog-two__img-education"
+                      style={{ height: "230px" }}
                     />
                     <img
                       src="education2.jpg"
                       alt="@@title"
-                      className="blog-two__img-education"
+                      style={{ height: "230px" }}
                     />
-                    <Link href="blog-details" className="blog-two__link">
+                    <p className="blog-two__link">
                       <span className="sr-only"></span>
-                    </Link>
+                    </p>
                   </div>
                 </div>
                 <div className="blog-two__content">
                   <ul className="blog-two__meta list-unstyled">
                     <li>
-                      <Link href="blog-details">
+                      <p>
                         <span className="icon-user"></span>Admin
-                      </Link>
+                      </p>
                     </li>
                     <li>
-                      <Link href="blog-details">
+                      <p>
                         <span className="icon-comment"></span>Comment
-                      </Link>
+                      </p>
                     </li>
                   </ul>
                   <h3 className="blog-two__title">
-                    <Link href="blog-details">
-                      Education For Poor Children Is A Must Now
-                    </Link>
+                    <p>Education For Poor Children Is A Must Now</p>
                   </h3>
-                  <p className="blog-two__text">
+                  <p className="blog-two__text" style={{textAlign: 'justify'}}>
                     Breaking barriers to education and creating opportunities
                     for children from disadvantaged backgrounds to learn and
                     thrive.
@@ -186,7 +180,7 @@ export default function Blog() {
                       href="donation-details"
                       className="blog-two__btn thm-btn"
                     >
-                      rEAD mORe
+                      Read More
                       <span>
                         <i className="icon-arrow-right"></i>
                       </span>
