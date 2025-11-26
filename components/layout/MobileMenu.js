@@ -38,90 +38,50 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     <div className="mobile-nav__container">
                         <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul className="main-menu__list">
-                                <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}><Link href="/">Home</Link>
-                                    <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
-                                        <li><Link href="/">Home One</Link></li>
-                                        <li><Link href="index2">Home Two</Link></li>
-                                        <li><Link href="index3">Home Three</Link></li>
-                                        <li><Link href="index4">Home Four</Link></li>
-                                        <li><Link href="index5">Home Five</Link></li>
-                                        <li><Link href="index-dark">Home Dark</Link></li>
-                                    </ul>
-                                    <button className={isActive.key == 1 ? "expanded open" : ""} onClick={() => handleToggle(1)}><span className="fa fa-angle-right" /></button>
-                                </li>
-                                <li><Link href="/about/">About</Link></li>
-                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/#">Pages</Link>
-                                    <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>                                 
-                                        <li className={isActive.subMenuKey == 3 ? "dropdown current" : "dropdown"}>
-                                            <Link href="/">Volunteer</Link>
-                                            <ul style={{ display: `${isActive.subMenuKey == 3 ? "block" : "none"}` }}>
-                                                <li><Link href="volunteer">Volunteer</Link></li>
-                                                <li><Link href="volunteer-carousel">Volunteer Carousel</Link>
-                                                </li>
-                                                <li><Link href="become-volunteer">Become Volunteer</Link></li>
-                                                <li><Link href="volunteer-details">Volunteer Details</Link></li>
-                                            </ul>
-                                            <button className={isActive.subMenuKey == 3 ? "expanded open" : "expanded"} onClick={() => handleToggle(2, 3)}><span className="fa fa-angle-right" /></button>
-                                        </li>
-                                        <li className={isActive.subMenuKey == 4 ? "dropdown current" : "dropdown"}>
-                                            <Link href="/">Events</Link>
-                                            <ul style={{ display: `${isActive.subMenuKey == 4 ? "block" : "none"}` }}>
-                                                <li><Link href="events">Events</Link></li>
-                                                <li><Link href="events-carousel">Events Carousel</Link></li>
-                                                <li><Link href="events-list">Events List</Link></li>
-                                                <li><Link href="event-details">Event Details</Link></li>
-                                            </ul>
-                                            <button className={isActive.subMenuKey == 4 ? "expanded open" : "expanded"} onClick={() => handleToggle(2, 4)}><span className="fa fa-angle-right" /></button>
-                                        </li>
-                                        <li><Link href="projects">Projects</Link></li>
-                                        <li><Link href="project-details">Project Details</Link></li>
-                                        <li><Link href="cause-details">Cause Details</Link></li>
-                                        <li><Link href="testimonials">Testimonials</Link></li>
-                                        <li><Link href="faq">FAQs</Link></li>
-                                        <li><Link href="404">404 Error</Link></li>
+                                <li><Link href="/">Home</Link></li>
+                                <li><Link href="/about">About</Link></li>
+                                <li><Link href="/contact">Contact</Link></li>
+                                <li><Link href="/blog">Blog</Link></li>
+                                <li><Link href="/donation">Donation</Link></li>
+                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/#">More</Link>
+                                    <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
+                                        <li><Link href="/testimonials">Testimonials</Link></li>
+                                        <li><Link href="/events">Events</Link></li>
+                                        <li><Link href="/volunteer">Volunteer</Link></li>
+                                        <li><Link href="/faq">FAQs</Link></li>
                                     </ul>
                                     <button className={isActive.key == 2 ? "expanded open" : ""} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></button>
                                 </li>
-                                <li className={isActive.key == 5 ? "dropdown current" : "dropdown"}><Link href="/#">Donation</Link>
-                                    <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>                                 
-                                        <li><Link href="donation">Donation</Link></li>
-                                        <li><Link href="donation-carousel">Donation Carousel</Link></li>
-                                        <li><Link href="donation-details">Donation Details</Link></li>
-                                    </ul>
-                                    <button className={isActive.key == 5 ? "expanded open" : ""} onClick={() => handleToggle(5)}><span className="fa fa-angle-right" /></button>
-                                </li>
-                                <li className={isActive.key == 6 ? "dropdown current" : "dropdown"}><Link href="/#">Shop</Link>
-                                    <ul style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}>                                 
-                                        <li><Link href="products">Products</Link></li>
-                                        <li><Link href="product-details">Product Details</Link></li>
-                                        <li><Link href="cart">Cart</Link></li>
-                                        <li><Link href="checkout">Checkout</Link></li>
-                                        <li><Link href="wishlist">Wishlist</Link></li>
-                                        <li><Link href="account">My Account</Link></li>
-                                    </ul>
-                                    <button className={isActive.key == 6 ? "expanded open" : ""} onClick={() => handleToggle(6)}><span className="fa fa-angle-right" /></button>
-                                </li>
-                                <li className={isActive.key == 7 ? "dropdown current" : "dropdown"}><Link href="/#">Blog</Link>
-                                    <ul style={{ display: `${isActive.key == 7 ? "block" : "none"}` }}>                                 
-                                        <li><Link href="blog">Blog</Link></li>
-                                        <li><Link href="blog-carousel">Blog Carousel</Link></li>
-                                        <li><Link href="blog-list">Blog List</Link></li>
-                                        <li><Link href="blog-details">Blog Details</Link></li>
-                                    </ul>
-                                    <button className={isActive.key == 7 ? "expanded open" : ""} onClick={() => handleToggle(7)}><span className="fa fa-angle-right" /></button>
-                                </li>
-                                <li><Link href="/contact">Contact</Link></li>
                             </ul>
                         </div>
                     </div>
+                    
+                    {/* Mobile-specific elements - shown below 1200px */}
+                    <div className="mobile-nav__actions">
+                        <div className="mobile-nav__call">
+                            <div className="mobile-nav__call-content">
+                                <p className="mobile-nav__call-sub-title">Call Anytime</p>
+                                <h5 className="mobile-nav__call-number">
+                                    <Link href="tel:9911314655">+91 99-1131-4655</Link>
+                                </h5>
+                            </div>
+                        </div>
+                        <div className="mobile-nav__btn-box">
+                            <Link href="/donation-details" className="mobile-nav__btn thm-btn" style={{color: 'white', textWrap: 'nowrap'}}>
+                                Donate Now
+                                <span><i className="icon-arrow-right"></i></span>
+                            </Link>
+                        </div>
+                    </div>
+                    
                     <ul className="mobile-nav__contact list-unstyled">
                         <li>
                             <i className="fa fa-envelope"></i>
-                            <Link href="mailto:needhelp@elitecons.com">needhelp@elitecons.com</Link>
+                            <Link href="mailto:info@ldrfoundation.com">info@ldrfoundation.com</Link>
                         </li>
                         <li>
                             <i className="fa fa-phone-alt"></i>
-                            <Link href="tel:666-888-0000">666 888 0000</Link>
+                            <Link href="tel:9911314655">+91 99-1131-4655</Link>
                         </li>
                     </ul>
                     <div className="mobile-nav__top">
@@ -135,7 +95,69 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                 </div>
             </div>
 
-          
+            <style jsx>{`
+                .mobile-nav__actions {
+                    padding: 20px 30px;
+                    border-top: 1px solid #e8e8e8;
+                    margin-top: 20px;
+                }
+                
+                .mobile-nav__call {
+                    margin-bottom: 20px;
+                }
+                
+                .mobile-nav__call-content {
+                    text-align: center;
+                }
+                
+                .mobile-nav__call-sub-title {
+                    color: #666;
+                    font-size: 14px;
+                    margin-bottom: 5px;
+                }
+                
+                .mobile-nav__call-number {
+                    color: #ff6b35;
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin: 0;
+                }
+                
+                .mobile-nav__call-number a {
+                    color: inherit;
+                    text-decoration: none;
+                }
+                
+                .mobile-nav__btn-box {
+                    text-align: center;
+                }
+                
+                .mobile-nav__btn {
+                    display: inline-block;
+                    background: #ff6b35;
+                    color: #fff;
+                    padding: 12px 25px;
+                    border-radius: 5px;
+                    text-decoration: none;
+                    font-weight: 600;
+                    transition: all 0.3s ease;
+                }
+                
+                .mobile-nav__btn:hover {
+                    background: #e55a2b;
+                    color: #fff;
+                }
+                
+                .mobile-nav__btn span {
+                    margin-left: 8px;
+                }
+                
+                @media (min-width: 1200px) {
+                    .mobile-nav__actions {
+                        display: none !important;
+                    }
+                }
+            `}</style>
 
         </>
     )

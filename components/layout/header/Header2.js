@@ -16,12 +16,11 @@ export default function Header2({ scroll, handlePopup, handleSidebar, handleMobi
                                 <Link href="/"><img src="assets/images/resources/logo-1.png" alt=""/></Link>
                             </div>
                             <div className="main-menu-two__main-menu-box">
-                                <Link href="#" className="mobile-nav__toggler" onClick={handleMobileMenu}><i className="fa fa-bars"></i></Link>
                                 <Menu/>
                             </div>
                         </div>
                         <div className="main-menu-two__right">
-                            <div className="main-menu-two__call">
+                            <div className="main-menu-two__call desktop-large-only">
                                 <div className="main-menu-two__call-icon">
                                     <i className="icon-call"></i>
                                 </div>
@@ -33,10 +32,11 @@ export default function Header2({ scroll, handlePopup, handleSidebar, handleMobi
                             {/* <div className="main-menu-two__search-box">
                                 <Link href="#" className="main-menu-two__search search-toggler icon-search" onClick={handlePopup}></Link>
                             </div> */}
-                            <div className="main-menu-two__btn-box">
+                            <div className="main-menu-two__btn-box desktop-large-only">
                                 <Link href="donation-details" className="main-menu-two__btn thm-btn">Donate Now<span><i
                                             className="icon-arrow-right"></i></span></Link>
                             </div>
+                            <Link href="#" className="mobile-nav__toggler mobile-only" onClick={handleMobileMenu}><i className="fa fa-bars"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -53,12 +53,11 @@ export default function Header2({ scroll, handlePopup, handleSidebar, handleMobi
                                     <Link href="/"><img src="assets/images/resources/logo-1.png" alt=""/></Link>
                                 </div>
                                 <div className="main-menu-two__main-menu-box">
-                                    <Link href="#" className="mobile-nav__toggler" onClick={handleMobileMenu}><i className="fa fa-bars"></i></Link>
                                     <Menu/>
                                 </div>
                             </div>
                             <div className="main-menu-two__right">
-                                <div className="main-menu-two__call">
+                                <div className="main-menu-two__call desktop-large-only">
                                     <div className="main-menu-two__call-icon">
                                         <i className="icon-call"></i>
                                     </div>
@@ -70,10 +69,11 @@ export default function Header2({ scroll, handlePopup, handleSidebar, handleMobi
                                 {/* <div className="main-menu-two__search-box">
                                     <Link href="#" className="main-menu-two__search search-toggler icon-search" onClick={handlePopup}></Link>
                                 </div> */}
-                                <div className="main-menu-two__btn-box">
+                                <div className="main-menu-two__btn-box desktop-large-only">
                                     <Link href="donation-details" className="main-menu-two__btn thm-btn">Donate Now<span><i
                                                 className="icon-arrow-right"></i></span></Link>
                                 </div>
+                                <Link href="#" className="mobile-nav__toggler mobile-only" onClick={handleMobileMenu}><i className="fa fa-bars"></i></Link>
                             </div>
                         </div>
                     </div>
@@ -82,6 +82,50 @@ export default function Header2({ scroll, handlePopup, handleSidebar, handleMobi
         </div>{/*.stricky-header */}
         <MobileMenu handleMobileMenu={handleMobileMenu} />
         
+        <style jsx global>{`
+            .mobile-only {
+                display: none;
+            }
+            
+            @media (max-width: 1199px) {
+                .desktop-large-only {
+                    display: none !important;
+                }
+                
+                .main-menu-two__main-menu-box .main-menu {
+                    display: none !important;
+                }
+                
+                .mobile-only {
+                    display: block !important;
+                }
+                
+                .main-menu-two__right {
+                    display: flex !important;
+                    align-items: center !important;
+                }
+            }
+            
+            @media (max-width: 767px) {
+                .mobile-only {
+                    display: block !important;
+                }
+            }
+            
+            @media (min-width: 1200px) {
+                .mobile-nav__actions {
+                    display: none !important;
+                }
+                
+                .mobile-only {
+                    display: none !important;
+                }
+                
+                .main-menu-two__main-menu-box .main-menu {
+                    display: block !important;
+                }
+            }
+        `}</style>
 
         </>
     )
