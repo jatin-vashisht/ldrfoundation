@@ -32,23 +32,23 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     <span className="mobile-nav__close mobile-nav__toggler" onClick={handleMobileMenu} ><i className="fa fa-times"></i></span>
 
                     <div className="logo-box">
-                        <Link href="/" aria-label="logo image"><img src="assets/images/resources/logo-2.png" width="150" alt="" /></Link>
+                        <Link href="/" aria-label="logo image" onClick={handleMobileMenu}><img src="assets/images/resources/logo-2.png" width="150" alt="" /></Link>
                     </div>
 
                     <div className="mobile-nav__container">
                         <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul className="main-menu__list">
-                                <li><Link href="/">Home</Link></li>
-                                <li><Link href="/about">About</Link></li>
-                                <li><Link href="/contact">Contact</Link></li>
-                                <li><Link href="/blog">Blog</Link></li>
-                                <li><Link href="/donation">Donation</Link></li>
+                                <li><Link href="/" onClick={handleMobileMenu}>Home</Link></li>
+                                <li><Link href="/about" onClick={handleMobileMenu}>About</Link></li>
+                                <li><Link href="/contact" onClick={handleMobileMenu}>Contact</Link></li>
+                                <li><Link href="/blog" onClick={handleMobileMenu}>Blog</Link></li>
+                                <li><Link href="/donation" onClick={handleMobileMenu}>Donation</Link></li>
                                 <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/#">More</Link>
                                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                                        <li><Link href="/testimonials">Testimonials</Link></li>
-                                        <li><Link href="/events">Events</Link></li>
-                                        <li><Link href="/volunteer">Volunteer</Link></li>
-                                        <li><Link href="/faq">FAQs</Link></li>
+                                        <li><Link href="/testimonials" onClick={handleMobileMenu}>Testimonials</Link></li>
+                                        <li><Link href="/events" onClick={handleMobileMenu}>Events</Link></li>
+                                        <li><Link href="/volunteer" onClick={handleMobileMenu}>Volunteer</Link></li>
+                                        <li><Link href="/faq" onClick={handleMobileMenu}>FAQs</Link></li>
                                     </ul>
                                     <button className={isActive.key == 2 ? "expanded open" : ""} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></button>
                                 </li>
@@ -67,7 +67,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                             </div>
                         </div>
                         <div className="mobile-nav__btn-box">
-                            <Link href="/donation-details" className="mobile-nav__btn thm-btn" style={{color: 'white', textWrap: 'nowrap'}}>
+                            <Link href="/donation-details" className="mobile-nav__btn thm-btn" style={{color: 'white', textWrap: 'nowrap'}} onClick={handleMobileMenu}>
                                 Donate Now
                                 <span><i className="icon-arrow-right"></i></span>
                             </Link>
